@@ -26,7 +26,7 @@ var hasStarted;
  Preloaded data for the canvas
 */
 function preload() {
-  pixelFont = loadFont('../fonts/subway.ttf');
+  pixelFont = loadFont('fonts/subway.ttf');
 }
 
 /**
