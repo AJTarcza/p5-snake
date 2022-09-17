@@ -1,0 +1,107 @@
+@font-face {
+  font-family: subwayTicker;
+  src: url("../fonts/subway.ttf");
+}
+
+html, body {
+  background: radial-gradient(circle, rgba(115,107,104,1) 0%, rgba(65,58,63,1) 99%);
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+	height: 5vh;
+	text-align: center;
+}
+
+.parent {
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.github {
+	position: absolute;
+	left: 1vw;
+	top: 1.5vh;
+	cursor: pointer;
+	font-size: 3vw;
+}
+
+.fa-github {
+	color: white;
+}
+
+#scoreText {
+  color: white;
+  font-size: 4vw;
+}
+
+#headerText {
+	font-family: subwayTicker;
+	color: #2cfa1f;
+	font-size: 3vw;
+	letter-spacing: 1vw;
+	margin: 2vh;
+}
+
+canvas {
+	border-image: url('../images/monitor.jpg') 30 fill / 30px / 30px;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+}
+
+.difficultySelect, #scoreText {
+	display: flex;	
+	justify-content: center;
+}
+
+#scoreText {
+	height: 4vh;
+	padding: 1vh;
+	font-family: subwayTicker;
+	font-size: 3vw;
+}
+
+.difficultySelect {
+	padding: 1vh;
+}
+
+.difficultyButton {
+  color: white;
+  padding: 1vh;
+  margin: 0.2vw;
+  display: inline-block;
+  background-color: darkgray;
+  font-family: subwayTicker;
+}
+
+.difficultyButton:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+#easyButton.active{
+  background-color: green !important;
+}
+
+#easyButton.active:hover{
+  background-color: darkgreen !important;
+}
+
+#mediumButton.active{
+  background-color: orange !important;
+}
+
+#mediumButton.active:hover{
+  background-color: darkorange !important;
+}
+
+#hardButton.active{
+  background-color: red !important;
+}
+
+#hardButton.active:hover{
+  background-color: darkred !important;
+}

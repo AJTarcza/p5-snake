@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <meta charset="utf-8" />
+	<title>Snake</title>
+  </head>
+  <header>
+	<div class="header">
+		<p id="headerText">SNAKE</p>
+
+		<!-- Github Button -->
+		<span class="github" alt="Source Code" title="View Source Code">
+			<a href="https://github.com/AJTarcza/ME3-Interactive-Mission-Order" target="_blank"><i class="fa fa-github"></i></a>
+		</span>
+		<!-- End Github Button -->
+	</div>
+  </header>
+  <body>
+	<div class="parent">
+		<div class="container">
+			<div class="difficultySelect">
+				<span class="difficultyButton active" id="easyButton">EASY</span>
+				<span class="difficultyButton" id="mediumButton">MEDIUM</span>
+				<span class="difficultyButton" id="hardButton">HARD</span>
+			</div>
+			<!-- p5 Canvas -->
+			<main>
+			</main>
+			<!-- End p5 Canvas -->
+			</span>
+			<div id="scoreText">0</div>
+		</div>
+	</div>
+    
+    <script src="scripts/difficulty.js"></script>
+    <script src="scripts/sketch.js"></script>
+    <script src="scripts/snake.js"></script>
+    <script src="scripts/food.js"></script>
+    <script src="scripts/position.js"></script>
+  </body>
+</html>
